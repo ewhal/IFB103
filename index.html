@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Store</title>
+
+		<link href="static/css/bootstrap.css" rel="stylesheet">
+		<link href="static/css/font-awesome.css" rel="stylesheet">
+		<link href="static/css/main.css" rel="stylesheet">
+		<link href="static/css/creative.css" rel="stylesheet">
+		<link href="static/css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse sidebar" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="/admin">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+						<li ><a href="/admin/orders">Orders<span style="font-size:16px;" class="pull-right hidden-xs showopacity fa fa-archive"></span></a></li>
+						<li ><a href="/admin/add">Add<span style="font-size:16px;" class="pull-right hidden-xs showopacity fa fa-plus"></span></a></li>
+						<li ><a href="/admin/remove">Remove<span style="font-size:16px;" class="pull-right hidden-xs showopacity fa fa-minus"></span></a></li>
+						<li ><a href="/admin/modify">Modify<span style="font-size:16px;" class="pull-right hidden-xs showopacity fa fa-pencil"></span></a></li>
+						<li ><a href="/admin/upload">Upload<span style="font-size:16px;" class="pull-right hidden-xs showopacity fa fa-file"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://cookerecipe.com/wp-content/uploads/2015/04/shrimp-tacos.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/easy_tasty_grilled_foods_slideshow/650x350_easy_tasty_grilled_foods_slideshow.jpg?output-quality=80" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://images.glaciermedia.ca/polopoly_fs/1.80345.1361826603!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_563/cpt305084097-high-jpg.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://baliindiancuisine.com/wp-content/uploads/2014/09/healthy-food-recipes-for-kids.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://blog.unicasport.com/wp-content/uploads/Ideas-for-healthy-eating-recipes-and-meals-2.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://www.healthnsleep.com/wp-content/uploads/2013/12/healthy-food.png" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://images.fitnessmagazine.mdpcdn.com/sites/fitnessmagazine.com/files/styles/facebook_og_image/public/slide/R131203_1.jpg?itok=tAnOua8k" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://almost-vegetarian.com/wp-content/uploads/2012/03/Mix-vegetables-with-nuts.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://www.myhealthrush.com/wp-content/uploads/2014/04/Healthy-Food1-website.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://easyhealthydinners.org/wp-content/uploads/2014/09/easy-healthy-dinners.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="http://www.leanphysiquemeals.co.uk/wp-content/uploads/2015/02/food.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+				<div class="col-md-2 store"> 
+					<a href="" class="thumbnail">
+						<img src="https://streetworkouts.net/wp-content/uploads/2014/11/healthy-meals.jpg" alt="{{.Productname}}">
+					</a>
+				</div>
+
+
+
+
+			</div>
+		</div>
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="static/js/bootstrap.js"></script>
+		<script src="static/js/main.js"></script>
+	</body>
+</html>
